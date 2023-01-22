@@ -1,4 +1,5 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
 const pageStyles = {
   color: "#232129",
@@ -126,6 +127,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <Layout pageTitle='Home Page'></Layout>
       <h1 style={headingStyles}>
         Congratulations
         <br />
